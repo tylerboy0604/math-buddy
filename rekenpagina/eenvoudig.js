@@ -14,3 +14,42 @@ function genereerTafel() {
 
     return false; // We moeten false returnen, om te voorkomen dat de browser de pagina herlaad.
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function breuken() {
+    // var maxnoemer = document.getElementById("max_noemer") 
+    // var noemer = 1
+    var antwoordVeld = document.getElementById("breuk-antwoord");
+    antwoordVeld.value = "1/2 = 0,5";
+    return false;
+}
+
+
