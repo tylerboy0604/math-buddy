@@ -1,3 +1,5 @@
 # meth-mate
 meth mate website repository
-![GitHub Logo](/rekenpagina/mockup rekenpagina.PNG)
+<p align="center">
+    <img width="400" height="300" src="Mango.png">
+    </p>
