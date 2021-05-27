@@ -1,2 +1,2 @@
 # meth-mate
-math mate website repository
+meth mate website repository
