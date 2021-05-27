@@ -45,11 +45,12 @@ function genereerTafel() {
 
 
 function breuken() {
-    // var maxnoemer = document.getElementById("max_noemer") 
-    // var noemer = 1
+    var maxnoemer = document.getElementById("max_noemer").value;
+    var noemer = 1
     var antwoordVeld = document.getElementById("breuk-antwoord");
-    antwoordVeld.value = "1/2 = 0,5";
+    
+    
+    var quotient = 1 / maxnoemer;
+    antwoordVeld.value = "1 / " + maxnoemer + " = " + quotient;
     return false;
 }
-
-
