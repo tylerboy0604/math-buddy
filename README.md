@@ -1,3 +1,3 @@
 # meth-mate
-meth mate website repository
-![GitHub Logo](/images/logo.png)
+meth mate website repository /n
+![GitHub Logo](/math-buddy/rekenpagina/mockup rekenpagina.PNG)
