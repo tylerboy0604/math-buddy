@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MathMate - Eenvoudig rekenen</title>
+    <script src="eenvoudig.js"></script>
+</head>
+<body>
+
+    <header></header>
+    <main>
+        <nav>
+            <a href="#tafels">Tafels</a>
+            -
+            <a href="#kwadraten">Kwadraten</a>
+            -
+            <a href="#breuken">Breuken</a>
+            -
+            <a href="#machten">Machten</a>
+        </nav>
+
+        <section id="tafels">
+            <h1>Tafels</h1>
+            <form onsubmit="return genereerTafel();">
+                <p>
+                    <label>Vermenigvuldigtal:</label>
+                    <input id="tafel-vermenigvuldigtal" value="5" type="number">
+                </p>
+                <p>
+                    <label>Max vermenigvuldiger:</label>
+                    <input id="tafel-max-vermenigvuldiger" value="10" type="number">
+                </p>
+                <p>
+                    <button type="submit">Genereer tafel</button>
+                </p>
+                <p>
+                    <textarea readonly id="tafel-antwoord"></textarea>
+                </p>
+            </form>
+        </section>
+
+        <section id="kwadraten"></section>
+        
+        <section id="breuken"></section>
+        
+        <section id="machten"></section>
+
+    </main>
+    <footer></footer>
+    
+</body>
+</html
