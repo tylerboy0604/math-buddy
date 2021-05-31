@@ -46,11 +46,15 @@ function genereerTafel() {
 
 function breuken() {
     var maxnoemer = document.getElementById("max_noemer").value;
-    var noemer = 1
+    
     var antwoordVeld = document.getElementById("breuk-antwoord");
     
-    
-    var quotient = 1 / maxnoemer;
-    antwoordVeld.value = "1 / " + maxnoemer + " = " + quotient;
+    antwoordVeld.value = "";
+
+    for(var noemer = 1; noemer <= maxnoemer; noemer++){
+        var quotient = 1 / noemer;
+        antwoordVeld.value += "1 / " + noemer + " = " + quotient + " \n ";
+        
+    }
     return false;
 }
