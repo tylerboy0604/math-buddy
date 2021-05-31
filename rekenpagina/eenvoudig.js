@@ -17,33 +17,6 @@ function genereerTafel() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function breuken() {
     var maxnoemer = document.getElementById("max_noemer").value;
     
@@ -58,3 +31,29 @@ function breuken() {
     }
     return false;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
