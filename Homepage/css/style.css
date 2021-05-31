@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+body {
+    display: flex;
+}
+
+header {
+    width: 25vw;
+    height: 120vh;
+}
+
+.wallpaper {
+    width: 100vw;
+    float: left;
+}
