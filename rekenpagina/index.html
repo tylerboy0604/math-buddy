@@ -9,43 +9,68 @@
 </head>
 <body>
 
-    <header></header>
-    <main>
+    <header>
+        <img src="IMG/wallpaper_wiskunde.jpg">
+        <h1>math                   buddy</h1>
+        <img src="IMG/Logo (1).png">
         <nav>
-            <a href="#tafels">Tafels</a>
-            -
-            <a href="#kwadraten">Kwadraten</a>
-            -
-            <a href="#breuken">Breuken</a>
-            -
-            <a href="#machten">Machten</a>
+            <ul>
+                <li><a href="home">home</a></li>
+                <li><a href="reken_pagina">reken</a></li>
+                <li><a href="game_page">FAQ</a></li>
+            </ul>
         </nav>
-
-        <section id="tafels">
-            <h1>Tafels</h1>
-            <form onsubmit="return genereerTafel();">
-                <p>
-                    <label>Vermenigvuldigtal:</label>
-                    <input id="tafel-vermenigvuldigtal" value="5" type="number">
-                </p>
-                <p>
-                    <label>Max vermenigvuldiger:</label>
-                    <input id="tafel-max-vermenigvuldiger" value="10" type="number">
-                </p>
-                <p>
-                    <button type="submit">Genereer tafel</button>
-                </p>
-                <p>
-                    <textarea readonly id="tafel-antwoord"></textarea>
-                </p>
-            </form>
+    </header>
+    <main>
+        <section id="middle_color"> 
+            <h1></h1>
+        </section> 
+        <section id="inner_color">
+            <h1></h1>
         </section>
-
-        <section id="kwadraten"></section>
+        <section>
+            <section>
+                <p>tafels</p>
+            </section>
+            <section id="tafels">
+                <h1>Tafels</h1>
+                <form onsubmit="return genereerTafel();">
+                    <p>
+                        <label>Vermenigvuldigtal:</label>
+                        <input id="tafel-vermenigvuldigtal" value="5" type="number">
+                    </p>
+                    <p>
+                        <label>Max vermenigvuldiger:</label>
+                        <input id="tafel-max-vermenigvuldiger" value="10" type="number">
+                    </p>
+                    <p>
+                        <button type="submit">Genereer tafel</button>
+                    </p>
+                    <p>
+                        <textarea readonly id="tafel-antwoord"></textarea>
+                    </p>
+                </form>
+            </section>
         
-        <section id="breuken"></section>
-        
-        <section id="machten"></section>
+            <section>
+                <section>
+                    <p>breuken</p>
+                </section>
+                <section id="breuken">
+                    <h1>Breuken</h1>
+                    <form onsubmit="return breuken();">
+                        <p>
+                            <label>max noemer:</label>
+                            <input id="max_noemer" value="5" type="number">
+                        </p>
+                        <p>
+                            <button type="submit">Genereer Breuk</button>
+                        </p>
+                        <p>
+                            <textarea readonly id="breuk-antwoord"></textarea>
+                        </p>
+                    </form>
+                </section>
 
     </main>
     <footer></footer>
