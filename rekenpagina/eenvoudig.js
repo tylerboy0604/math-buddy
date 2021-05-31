@@ -17,33 +17,6 @@ function genereerTafel() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function breuken() {
     var maxnoemer = document.getElementById("max_noemer").value;
     
@@ -58,3 +31,51 @@ function breuken() {
     }
     return false;
 }
+
+
+function kwadraten() {
+    var maxnoemer = document.getElementById("kwadraten-grondgetal").value;
+    
+    var antwoordVeld = document.getElementById("kwadraten-antwoord");
+    
+    antwoordVeld.value = "";
+
+    for(var noemer = 1; noemer <= maxnoemer; noemer++){
+        var quotient = 1 / noemer;
+        antwoordVeld.value += "1 / " + noemer + " = " + quotient + " \n ";
+        
+    }
+    return false;
+}
+
+
+
+
+
+
+
+
+
+function power(base, exponent) {
+    var result = 1;
+        for(var count = 0;count < exponent; count++)
+            result *= base
+            return result;
+        }
+
+    power(2, 10);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
