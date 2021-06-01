@@ -39,10 +39,10 @@ function machten() {
 
    antwoordVeld.value = "";
 
-   for(var grondgetal = 1; grondgetal <= maxgrondgetal; grondgetal++){
-       var product = grondgetal * exponent;
+   for(var grondgetal = 1; grondgetal <= maxGrondgetal; grondgetal++){
+       var product = grondgetal ^ exponent;
        var kwadraat = grondgetal + "^" + exponent + "=" + product;
-       antwoordVeld.value += "1 ^" kwadraat + "\n";
+       antwoordVeld.value += kwadraat + "\n";
    }
    return false;
 }
