@@ -41,8 +41,8 @@ function machten() {
 
    for(var grondgetal = 1; grondgetal <= maxgrondgetal; grondgetal++){
        var product = grondgetal * exponent;
-       var kwadraat = grondgetal + "" + exponent + "=" + product;
-       antwoordVeld.value += kwadraat + "\n";
+       var kwadraat = grondgetal + "^" + exponent + "=" + product;
+       antwoordVeld.value += "1 ^" kwadraat + "\n";
    }
    return false;
 }
