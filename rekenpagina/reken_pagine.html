@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-    
+
      <meta charset="utf-8">
      <meta http-equiv="language" content="NL">
      <meta name="viewport" content="width=device-width" intial-scale="1">
@@ -27,9 +27,9 @@
             </nav>
         </header>
         <main>
-            <section id="middle_color"> 
+            <section id="middle_color">
                 <h1></h1>
-            </section> 
+            </section>
             <section id="inner_color">
                 <h1></h1>
             </section>
@@ -56,7 +56,7 @@
                         </p>
                     </form>
                 </section>
-            
+
                 <section>
                     <section>
                         <p>breuken</p>
@@ -78,24 +78,25 @@
                     </section>
 
                     <section id="machten">
-                        <h1>Tafels</h1>
-                        <form onsubmit="return genereerTafel();">
+                        <h1>Machten</h1>
+                        <form onsubmit="return Machten();">
                             <p>
-                                <label>Vermenigvuldigtal:</label>
-                                <input id="tafel-vermenigvuldigtal" value="5" type="number">
+                                <label> max grondgetal:</label>
+                                <input id="tafel-grondgetal" value="5" type="number">
                             </p>
                             <p>
-                                <label>Max vermenigvuldiger:</label>
-                                <input id="tafel-max-vermenigvuldiger" value="10" type="number">
+                                <label>Max exponent:</label>
+                                <input id="tafel-max-exponent" value="10" type="number">
                             </p>
                             <p>
-                                <button type="submit">Genereer tafel</button>
+                                <button type="submit">Genereer Macht</button>
                             </p>
                             <p>
-                                <textarea readonly id="tafel-antwoord"></textarea>
+                                <textarea readonly id="macht-antwoord"></textarea>
                             </p>
                         </form>
                     </section>
         </main>
 
     </body>
+    </html>
