@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MathMate - Eenvoudig rekenen</title>
+<<<<<<< HEAD
     <script src="eenvoudig.js"></script>
+=======
+    <script src="reken.js"></script>
+>>>>>>> Fibonacci
 </head>
 <body>
 
@@ -29,6 +33,7 @@
             <h1></h1>
         </section>
         <section>
+<<<<<<< HEAD
             <section>
                 <p>tafels</p>
             </section>
@@ -38,8 +43,43 @@
                   
                 </script>
 
+=======
+            <section id="Fibonacci">
+                <h1>Fibonacci</h1>
+
+                <input type text="text" id="txtloop" />
+                <input type="button" id="btnEnter" value="Enter" onclick="fibonacci_series(txtloop.value)" />
+
+                <p id="output"></p>
+                <p id="demo"></p>
+                
+                <script>
+                var fibonacci_series = function (n)
+                {
+                  if (n==1)
+                  {
+                var loop = [0, 1];
+                   document.getElementById("output").innerHTML = loop;
+                  return loop;
+                  }
+                  else
+                  {
+                    var s = fibonacci_series(n - 1);
+                    s.push(s[s.length - 1] + s[s.length - 2]);
+                    document.getElementById("output").innerHTML =s;
+                    return s;
+                  }
+
+                };
+
+                </script>
+        </section>
+>>>>>>> Fibonacci
     </main>
     <footer></footer>
 
 </body>
+<<<<<<< HEAD
 </html>
+=======
+>>>>>>> Fibonacci
