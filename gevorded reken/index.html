@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MathMate - Eenvoudig rekenen</title>
+    <script src="reken.js"></script>
+</head>
+<body>
+
+    <header>
+        <img src="IMG/wallpaper_wiskunde.jpg">
+        <h1>math                   buddy</h1>
+        <img src="IMG/Logo (1).png">
+        <nav>
+            <ul>
+                <li><a href="home">home</a></li>
+                <li><a href="reken_pagina">reken</a></li>
+                <li><a href="game_page">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="middle_color">
+            <h1></h1>
+        </section>
+        <section id="inner_color">
+            <h1></h1>
+        </section>
+        <section>
+            <section id="Fibonacci">
+                <h1>Fibonacci</h1>
+
+                <input type text="text" id="txtloop" />
+                <input type="button" id="btnEnter" value="Enter" onclick="fibonacci_series(txtloop.value)" />
+
+                <p id="output"></p>
+                <p id="demo"></p>
+                
+                <script>
+                var fibonacci_series = function (n)
+                {
+                  if (n==1)
+                  {
+                var loop = [0, 1];
+                   document.getElementById("output").innerHTML = loop;
+                  return loop;
+                  }
+                  else
+                  {
+                    var s = fibonacci_series(n - 1);
+                    s.push(s[s.length - 1] + s[s.length - 2]);
+                    document.getElementById("output").innerHTML =s;
+                    return s;
+                  }
+
+                };
+
+                </script>
+        </section>
+    </main>
+    <footer></footer>
+
+</body>
